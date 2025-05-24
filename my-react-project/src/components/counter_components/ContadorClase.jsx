@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react';
 
 class ContadorClase extends Component {
     constructor(props) {
@@ -25,7 +25,7 @@ class ContadorClase extends Component {
         const {contador} = this.state
         return (
             <div>
-                <h1>Contador: {this.state.contador}</h1>
+                <h1>Contador con clase</h1>
                 <p>Contador: {contador}</p>
                 <button onClick={() => this.incrementar()}>Incrementar</button>
                 <button onClick={() => this.decrementar()}>Decrementar</button>
