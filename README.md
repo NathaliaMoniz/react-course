@@ -16,7 +16,7 @@ En este bloque se profundiza en el uso de componentes, que son la base de toda a
 - **Componentes controlados y no controlados**: formas de manejar formularios y entradas de usuario.
 - **Comunicación entre componentes**: pasando datos entre componentes padre e hijo mediante props.
 
-### 2. Gestión de eventos y formularios
+### 3. Gestión de eventos y formularios
 ---
 
 📌 *Este README se actualizará a medida que avance en el curso.*
