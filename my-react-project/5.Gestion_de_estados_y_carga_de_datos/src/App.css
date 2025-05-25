@@ -10,55 +10,48 @@ body {
 }
 
 h1 {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
 }
 p {
   color: #29002a;
   line-height: 1.6;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #388fe6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
+}
+
+.container_boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 button {
   background-color: #ffffff;
-  color: #e63838;
+  color: #388fe6;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 10px;
 }
 button:hover {
   background-color: #e0e0e0;
 }
 button:focus {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(255, 49, 49, 0.5);
+  box-shadow: 0 0 0 2px rgba(56, 143, 230, 0.5);
 }
 
 .box {
-  background-color: #e54040;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-label {
-  margin-right: 10px;
-  font-weight: bold;
-}
-
-input {
-  padding: 8px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-form .error {
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-  margin-top: 5px;
-  text-align: right;
-  display: block;
-  padding-right: 12px;
 }
