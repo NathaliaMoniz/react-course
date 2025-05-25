@@ -14,8 +14,9 @@ En este bloque se profundiza en el uso de componentes, que son la base de toda a
 - **Componentes de función**: más concisos y modernos, especialmente útiles con hooks.
 - **Composición de componentes**: cómo construir interfaces más complejas reutilizando componentes pequeños.
 - **Componentes controlados y no controlados**: formas de manejar formularios y entradas de usuario.
-- **Comunicación entre componentes**: pasando datos entre componentes padre e hijo mediante props, y también gestionando eventos.
+- **Comunicación entre componentes**: pasando datos entre componentes padre e hijo mediante props.
 
+### 3. Gestión de eventos y formularios
 ---
 
 📌 *Este README se actualizará a medida que avance en el curso.*
