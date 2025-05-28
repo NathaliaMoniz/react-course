@@ -1,12 +1,17 @@
 
 import './App.css'
-import MyButton from './components/MyButton'
-
+import ListaCarrito from './components/ListaCarrito'
+import ListaProductos from './components/ListaProductos'
+import { DataProvider } from './components/DataContext'
 function App() {
 
+  
   return (
     <>
-      <MyButton texto='My button'/>
+      <DataProvider>
+        <ListaCarrito />
+        <ListaProductos />
+      </DataProvider>
     </>
   )
 }

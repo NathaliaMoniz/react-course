@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "nombre": "Camiseta básica",
+      "precio": 12.99,
+      "descripcion": "Camiseta de algodón 100% disponible en varios colores"
+    },
+    {
+      "id": 2,
+      "nombre": "Pantalón vaquero",
+      "precio": 39.99,
+      "descripcion": "Pantalón vaquero azul de corte recto",
+      "estatus": "selected"
+    },
+    {
+      "id": 3,
+      "nombre": "Zapatillas deportivas",
+      "precio": 59.99,
+      "descripcion": "Zapatillas cómodas para uso diario"
+    },
+    {
+      "id": 4,
+      "nombre": "Mochila urbana",
+      "precio": 25.5,
+      "descripcion": "Mochila resistente al agua con múltiples compartimentos"
+    },
+    {
+      "id": 5,
+      "nombre": "Reloj analógico",
+      "precio": 89.0,
+      "descripcion": "Reloj clásico con correa de cuero",
+      "estatus": "selected"
+    }
+  ]
