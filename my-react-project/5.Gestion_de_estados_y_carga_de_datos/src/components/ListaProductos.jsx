@@ -5,8 +5,8 @@ import { useContext } from "react";
 const ListaProductos = () => {
     const handleClick = (event) => {
         const id = event.id
-        setData(prevData => prevData.map(item => item.id === id ? {...item, nombre: 'mi nombre'} : item))
-      }
+        setData(prevData => prevData.map(item => item.id === id ? {...item, estatus: 'selected'} : item))
+    }
     
     const {data, setData} = useContext(DataContext)
 
